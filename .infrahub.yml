@@ -20,8 +20,8 @@ jinja2_transforms:
     template_path: "topology/clab_topology.j2"
 
 artifact_definitions:
-  - name: "openconfig-interfaces"
-    artifact_name: "Openconfig Interface for Arista devices"
+  - name: "Openconfig Interface for Arista devices"
+    artifact_name: "openconfig-interfaces"
     parameters:
       device: "name__value"
     content_type: "application/json"
@@ -44,8 +44,8 @@ artifact_definitions:
     targets: "arista_devices"
     transformation: "device_arista"
 
-  - name: "Firewall config"
-    artifact_name: "firewall-config"
+  - name: 
+    artifact_name: "Firewall config"
     parameters:
       device: "name__value"
     content_type: "text/plain"
